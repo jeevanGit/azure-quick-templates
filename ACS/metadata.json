@@ -1,7 +1,7 @@
 {
-    "itemDisplayName": "Azure Container Service - Kubernetes",
-    "description": "Deploy an Azure Container Service instance for the hosting and management of Docker Containers. Azure Container Service optimizes the configuration of popular open source tools and technologies specifically for Azure. You get an open solution (either DCOS, powered by Apache Mesos, Kubernetes, or Docker Swarm) that offers portability for both your containers and your application configuration. You select the size, the number of hosts, and choice of orchestrator tools, and Container Service handles everything else.\nWe work closely with the open source community and, by exposing the standard API endpoints for our orchestration engine, we ensure that the most popular open source tools are not only compatible with Azure Container Service, but in most cases will work out of the box. This includes current tools such as visualizers, monitoring, continuous integration, and command line tools, as well as future tools and features as they become available.",
-    "summary": "Azure Container Service optimizes the configuration of open source container management solutions that offer portability for both your containers and your application configuration.",
-    "githubUsername": "Architech Solutions Ltd",
+    "itemDisplayName": "ACS - Kubernetes [DevLabs Compatible]",
+    "description": "Azure Container Service for Kubernetes makes it simple to create, configure, and manage a cluster of virtual machines that are preconfigured to run containerized applications. This enables you to use your existing skills, or draw upon a large and growing body of community expertise, to deploy and manage container-based applications on Microsoft Azure.By using Azure Container Service, you can take advantage of the enterprise-grade features of Azure, while still maintaining application portability through Kubernetes and the Docker image format.",
+    "summary": "Azure Container Service allows you to quickly deploy a production ready Kubernetes cluster.",
+    "githubUsername": "Architech Solutions Consulting Services Inc",
     "dateUpdated": "2018-04-12"
-  }
+}
