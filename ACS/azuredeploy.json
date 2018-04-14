@@ -86,7 +86,7 @@
         "properties": {
           "orchestratorProfile": {
             "orchestratorType": "Kubernetes",
-            "orchestratorVersion": "1.8.1"
+            "orchestratorVersion": "1.7.7"
           },
           "servicePrincipalProfile": {
             "clientId": "[parameters('servicePrincipalClientId')]",
