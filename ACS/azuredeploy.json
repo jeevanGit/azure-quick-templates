@@ -13,14 +13,15 @@
             "type": "securestring",
             "metadata": {
                 "description": "Service principal give access for the acs service."
-            }
+            },
+            "defaultValue": "43e1ad63-b698-4e2f-81ee-c76c61be0f18"
         },
         "servicePrincipalSecret": {
             "type": "securestring",
             "metadata": {
                 "description": "Secret used for service principal."
             },
-            "defaultValue": "tdadmin2018"
+            "defaultValue": "devlabsca2018"
         },
         "masterCount": {
             "type": "int",
