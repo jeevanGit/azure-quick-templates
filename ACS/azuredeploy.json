@@ -110,6 +110,16 @@
             "adminUsername": "azuser",
             "adminPassword": "Architech2018"
           },
+          "linuxProfile": {
+            "adminUsername": "[parameters('linuxAdmin')]",
+            "ssh": {
+              "publicKeys": [
+                {
+                  "keyData": "[parameters('linuxAdminSSHKey')]"
+                }
+              ]
+            }
+          },
           "diagnosticsProfile": {
             "vmDiagnostics": {
               "enabled": false
