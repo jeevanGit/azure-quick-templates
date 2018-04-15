@@ -101,7 +101,7 @@
               "name": "agentpool",
               "count": "[parameters('agentCount')]",
               "vmSize": "[parameters('vmSizeAgent')]",
-              "dnsPrefix": "[parameters('dnsPrefix')]",
+              "dnsPrefix": "concat[[parameters('dnsPrefix'),'agent']]",
               "osType": "Windows"
             }
           ],
