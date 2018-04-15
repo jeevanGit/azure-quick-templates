@@ -103,18 +103,12 @@
               "count": "[parameters('agentCount')]",
               "vmSize": "[parameters('vmSizeAgent')]",
               "dnsPrefix": "[parameters('dnsPrefix')]",
-              "osType": "Linux"
+              "osType": "Windows"
             }
           ],
-          "linuxProfile": {
-            "adminUsername": "[parameters('linuxAdmin')]",
-            "ssh": {
-              "publicKeys": [
-                {
-                  "keyData": "[parameters('linuxAdminSSHKey')]"
-                }
-              ]
-            }
+          "windowsProfile": {
+            "adminUsername": "azuser",
+            "adminPassword": "Architech2018"
           },
           "diagnosticsProfile": {
             "vmDiagnostics": {
