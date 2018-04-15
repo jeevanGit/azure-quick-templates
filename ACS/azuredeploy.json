@@ -107,10 +107,6 @@
               "osType": "Linux"
             }
           ],
-          "windowsProfile": {
-            "adminUsername": "azureuser",
-            "adminPassword": "Architech2018"
-          },
           "linuxProfile": {
             "adminUsername": "[parameters('linuxAdmin')]",
             "ssh": {
