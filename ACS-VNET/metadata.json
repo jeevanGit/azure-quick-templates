@@ -1,0 +1,7 @@
+{
+    "itemDisplayName": "Azure Container Service [VNET] : k8s-linux-1.8.1-vnet-v1",
+    "description": "Azure Container Service for Kubernetes makes it simple to create, configure, and manage a cluster of virtual machines that are preconfigured to run containerized applications. This enables you to use your existing skills, or draw upon a large and growing body of community expertise, to deploy and manage container-based applications on Microsoft Azure.By using Azure Container Service, you can take advantage of the enterprise-grade features of Azure, while still maintaining application portability through Kubernetes and the Docker image format.",
+    "summary": "Azure Container Service allows you to quickly deploy a production ready Kubernetes cluster.",
+    "githubUsername": "Architech Solutions Consulting Services Inc",
+    "dateUpdated": "2018-04-18"
+}
